@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC5DF6E17D6B03D000FDF00 /* peasPerPod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */; };
-		4DC5DF7017D6B03D000FDF00 /* dis.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DC5DF6F17D6B03D000FDF00 /* dis.1 */; };
+		4DC5DF8317D6B398000FDF00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DF8217D6B398000FDF00 /* main.cpp */; };
+		4DC5DF8517D6B398000FDF00 /* peasPerPod.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DC5DF8417D6B398000FDF00 /* peasPerPod.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4DC5DF6817D6B03D000FDF00 /* CopyFiles */ = {
+		4DC5DF7D17D6B398000FDF00 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				4DC5DF7017D6B03D000FDF00 /* dis.1 in CopyFiles */,
+				4DC5DF8517D6B398000FDF00 /* peasPerPod.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DC5DF6A17D6B03D000FDF00 /* peasPerPod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = peasPerPod; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peasPerPod.cpp; sourceTree = "<group>"; };
-		4DC5DF6F17D6B03D000FDF00 /* dis.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dis.1; sourceTree = "<group>"; };
+		4DC5DF7F17D6B398000FDF00 /* peasPerPod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = peasPerPod; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC5DF8217D6B398000FDF00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DC5DF8417D6B398000FDF00 /* peasPerPod.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = peasPerPod.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DC5DF6717D6B03D000FDF00 /* Frameworks */ = {
+		4DC5DF7C17D6B398000FDF00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,91 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC5DF6117D6B03D000FDF00 = {
+		4DC5DF7617D6B398000FDF00 = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF6C17D6B03D000FDF00 /* peasPerPod */,
-				4DC5DF6B17D6B03D000FDF00 /* Products */,
+				4DC5DF8117D6B398000FDF00 /* peasPerPod */,
+				4DC5DF8017D6B398000FDF00 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DC5DF6B17D6B03D000FDF00 /* Products */ = {
+		4DC5DF8017D6B398000FDF00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF6A17D6B03D000FDF00 /* peasPerPod */,
+				4DC5DF7F17D6B398000FDF00 /* peasPerPod */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DC5DF6C17D6B03D000FDF00 /* peasPerPod */ = {
+		4DC5DF8117D6B398000FDF00 /* peasPerPod */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */,
-				4DC5DF6F17D6B03D000FDF00 /* dis.1 */,
+				4DC5DF8217D6B398000FDF00 /* main.cpp */,
+				4DC5DF8417D6B398000FDF00 /* peasPerPod.1 */,
 			);
-			name = peasPerPod;
-			path = dis;
+			path = peasPerPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DC5DF6917D6B03D000FDF00 /* peasPerPod */ = {
+		4DC5DF7E17D6B398000FDF00 /* peasPerPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC5DF7317D6B03D000FDF00 /* Build configuration list for PBXNativeTarget "peasPerPod" */;
+			buildConfigurationList = 4DC5DF8817D6B398000FDF00 /* Build configuration list for PBXNativeTarget "peasPerPod" */;
 			buildPhases = (
-				4DC5DF6617D6B03D000FDF00 /* Sources */,
-				4DC5DF6717D6B03D000FDF00 /* Frameworks */,
-				4DC5DF6817D6B03D000FDF00 /* CopyFiles */,
+				4DC5DF7B17D6B398000FDF00 /* Sources */,
+				4DC5DF7C17D6B398000FDF00 /* Frameworks */,
+				4DC5DF7D17D6B398000FDF00 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = peasPerPod;
-			productName = dis;
-			productReference = 4DC5DF6A17D6B03D000FDF00 /* peasPerPod */;
+			productName = peasPerPod;
+			productReference = 4DC5DF7F17D6B398000FDF00 /* peasPerPod */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DC5DF6217D6B03D000FDF00 /* Project object */ = {
+		4DC5DF7717D6B398000FDF00 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jonathan Springer";
 			};
-			buildConfigurationList = 4DC5DF6517D6B03D000FDF00 /* Build configuration list for PBXProject "peasPerPod" */;
+			buildConfigurationList = 4DC5DF7A17D6B398000FDF00 /* Build configuration list for PBXProject "peasPerPod" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4DC5DF6117D6B03D000FDF00;
-			productRefGroup = 4DC5DF6B17D6B03D000FDF00 /* Products */;
+			mainGroup = 4DC5DF7617D6B398000FDF00;
+			productRefGroup = 4DC5DF8017D6B398000FDF00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DC5DF6917D6B03D000FDF00 /* peasPerPod */,
+				4DC5DF7E17D6B398000FDF00 /* peasPerPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DC5DF6617D6B03D000FDF00 /* Sources */ = {
+		4DC5DF7B17D6B398000FDF00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC5DF6E17D6B03D000FDF00 /* peasPerPod.cpp in Sources */,
+				4DC5DF8317D6B398000FDF00 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DC5DF7117D6B03D000FDF00 /* Debug */ = {
+		4DC5DF8617D6B398000FDF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -158,7 +157,7 @@
 			};
 			name = Debug;
 		};
-		4DC5DF7217D6B03D000FDF00 /* Release */ = {
+		4DC5DF8717D6B398000FDF00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,42 +183,41 @@
 			};
 			name = Release;
 		};
-		4DC5DF7417D6B03D000FDF00 /* Debug */ = {
+		4DC5DF8917D6B398000FDF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = peasPerPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4DC5DF7517D6B03D000FDF00 /* Release */ = {
+		4DC5DF8A17D6B398000FDF00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = peasPerPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DC5DF6517D6B03D000FDF00 /* Build configuration list for PBXProject "peasPerPod" */ = {
+		4DC5DF7A17D6B398000FDF00 /* Build configuration list for PBXProject "peasPerPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC5DF7117D6B03D000FDF00 /* Debug */,
-				4DC5DF7217D6B03D000FDF00 /* Release */,
+				4DC5DF8617D6B398000FDF00 /* Debug */,
+				4DC5DF8717D6B398000FDF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC5DF7317D6B03D000FDF00 /* Build configuration list for PBXNativeTarget "peasPerPod" */ = {
+		4DC5DF8817D6B398000FDF00 /* Build configuration list for PBXNativeTarget "peasPerPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC5DF7417D6B03D000FDF00 /* Debug */,
-				4DC5DF7517D6B03D000FDF00 /* Release */,
+				4DC5DF8917D6B398000FDF00 /* Debug */,
+				4DC5DF8A17D6B398000FDF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DC5DF6217D6B03D000FDF00 /* Project object */;
+	rootObject = 4DC5DF7717D6B398000FDF00 /* Project object */;
 }
