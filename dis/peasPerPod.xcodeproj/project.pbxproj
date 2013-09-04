@@ -44,7 +44,7 @@
 		4DC5DF6117D6B03D000FDF00 = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF6C17D6B03D000FDF00 /* dis */,
+				4DC5DF6C17D6B03D000FDF00 /* peasPerPod */,
 				4DC5DF6B17D6B03D000FDF00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,12 +57,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DC5DF6C17D6B03D000FDF00 /* dis */ = {
+		4DC5DF6C17D6B03D000FDF00 /* peasPerPod */ = {
 			isa = PBXGroup;
 			children = (
 				4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */,
 				4DC5DF6F17D6B03D000FDF00 /* dis.1 */,
 			);
+			name = peasPerPod;
 			path = dis;
 			sourceTree = "<group>";
 		};
