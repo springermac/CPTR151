@@ -17,8 +17,10 @@ int main()
     int dimes;
     int nickles;
     int total;
+    float currancy;
     
-    cout<<"\nEnter number of quarters: ";
+    cout<<endl;
+    cout<<"Enter number of quarters: ";
     cin>>quarters;
     
     cout<<"Enter number of dimes: ";
@@ -28,9 +30,10 @@ int main()
     cin>>nickles;
     
     total=(quarters*25)+(dimes*10)+(nickles*5);
+    currancy=total/100;
     
-    cout<<"Total value: "<<total;
+    cout<<"Total value: "<<total<<endl;
+    cout<<"Total value: $"<<currancy;
     
     return 0;
 }
-
