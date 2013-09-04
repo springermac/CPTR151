@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC5DF6E17D6B03D000FDF00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DF6D17D6B03D000FDF00 /* main.cpp */; };
+		4DC5DF6E17D6B03D000FDF00 /* peasPerPod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */; };
 		4DC5DF7017D6B03D000FDF00 /* dis.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DC5DF6F17D6B03D000FDF00 /* dis.1 */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DC5DF6A17D6B03D000FDF00 /* dis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dis; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC5DF6D17D6B03D000FDF00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DC5DF6A17D6B03D000FDF00 /* peasPerPod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = peasPerPod; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = peasPerPod.cpp; sourceTree = "<group>"; };
 		4DC5DF6F17D6B03D000FDF00 /* dis.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dis.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 		4DC5DF6B17D6B03D000FDF00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF6A17D6B03D000FDF00 /* dis */,
+				4DC5DF6A17D6B03D000FDF00 /* peasPerPod */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 		4DC5DF6C17D6B03D000FDF00 /* dis */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF6D17D6B03D000FDF00 /* main.cpp */,
+				4DC5DF6D17D6B03D000FDF00 /* peasPerPod.cpp */,
 				4DC5DF6F17D6B03D000FDF00 /* dis.1 */,
 			);
 			path = dis;
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DC5DF6917D6B03D000FDF00 /* dis */ = {
+		4DC5DF6917D6B03D000FDF00 /* peasPerPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC5DF7317D6B03D000FDF00 /* Build configuration list for PBXNativeTarget "dis" */;
+			buildConfigurationList = 4DC5DF7317D6B03D000FDF00 /* Build configuration list for PBXNativeTarget "peasPerPod" */;
 			buildPhases = (
 				4DC5DF6617D6B03D000FDF00 /* Sources */,
 				4DC5DF6717D6B03D000FDF00 /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = dis;
+			name = peasPerPod;
 			productName = dis;
-			productReference = 4DC5DF6A17D6B03D000FDF00 /* dis */;
+			productReference = 4DC5DF6A17D6B03D000FDF00 /* peasPerPod */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jonathan Springer";
 			};
-			buildConfigurationList = 4DC5DF6517D6B03D000FDF00 /* Build configuration list for PBXProject "dis" */;
+			buildConfigurationList = 4DC5DF6517D6B03D000FDF00 /* Build configuration list for PBXProject "peasPerPod" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DC5DF6917D6B03D000FDF00 /* dis */,
+				4DC5DF6917D6B03D000FDF00 /* peasPerPod */,
 			);
 		};
 /* End PBXProject section */
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC5DF6E17D6B03D000FDF00 /* main.cpp in Sources */,
+				4DC5DF6E17D6B03D000FDF00 /* peasPerPod.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,21 +186,21 @@
 		4DC5DF7417D6B03D000FDF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = peasPerPod;
 			};
 			name = Debug;
 		};
 		4DC5DF7517D6B03D000FDF00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = peasPerPod;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DC5DF6517D6B03D000FDF00 /* Build configuration list for PBXProject "dis" */ = {
+		4DC5DF6517D6B03D000FDF00 /* Build configuration list for PBXProject "peasPerPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DC5DF7117D6B03D000FDF00 /* Debug */,
@@ -209,13 +209,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC5DF7317D6B03D000FDF00 /* Build configuration list for PBXNativeTarget "dis" */ = {
+		4DC5DF7317D6B03D000FDF00 /* Build configuration list for PBXNativeTarget "peasPerPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DC5DF7417D6B03D000FDF00 /* Debug */,
 				4DC5DF7517D6B03D000FDF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
