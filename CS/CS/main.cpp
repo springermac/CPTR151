@@ -9,18 +9,28 @@
 #include <iostream>
 using namespace std;
 
-int display(string output)
-{
-    cout<<output;
-    return 0;
-}
-
 int main()
 {
-    string output;
-    
-    cout<<"Enter string to pe printed: ";
-    cin>>output;
-    display(output);
+    int i;
+    for (i=0; i<50; i=i+1) {
+        cout<<"*";
+    }
+    cout<<endl;
+    cout<<endl;
+    cout<<"\t\tC C C\t\t\t\tS S S S\t\t\t!!"<<endl;
+    cout<<"\t  C\t\t  C\t\t\t  S\t\t\tS\t\t!!"<<endl;
+    cout<<"\t C\t\t\t\t\t S\t\t\t\t\t!!"<<endl;
+    cout<<"\tC\t\t\t\t\t  S\t\t\t\t\t!!"<<endl;
+    cout<<"\tC\t\t\t\t\t\tS S S S\t\t\t!!"<<endl;
+    cout<<"\tC\t\t\t\t\t\t\t\tS\t\t!!"<<endl;
+    cout<<"\t C\t\t\t\t\t\t\t\t S\t\t!!"<<endl;
+    cout<<"\t  C\t\t  C\t\t\t  S\t\t\tS"<<endl;
+    cout<<"\t\tC C C\t\t\t\tS S S S\t\t\tOO"<<endl;
+    cout<<endl;
+    for (i=0; i<50; i=i+1) {
+        cout<<"*";
+    }
+    cout<<endl;
+    cout<<"\tComputer Science is Cool Stuff!!!";
     return 0;
 }
