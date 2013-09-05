@@ -31,6 +31,6 @@ int main()
         cout<<"*";
     }
     cout<<endl;
-    cout<<"\tComputer Science is Cool Stuff!!!";
+    cout<<endl<<endl<<"\tComputer Science is Cool Stuff!!!";
     return 0;
 }
