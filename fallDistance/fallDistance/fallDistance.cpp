@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  fallDistance.cpp
 //  fallDistance
 //
 //  Created by Jonathan Springer on 9/4/13.
@@ -25,4 +25,3 @@ int main()
     
     return 0;
 }
-

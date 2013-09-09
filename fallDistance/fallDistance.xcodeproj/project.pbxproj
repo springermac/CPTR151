@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC5DFAD17D77644000FDF00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DFAC17D77644000FDF00 /* main.cpp */; };
-		4DC5DFAF17D77644000FDF00 /* fallDistance.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DC5DFAE17D77644000FDF00 /* fallDistance.1 */; };
+		4D111C4B17DDFEF200C67900 /* fallDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D111C4A17DDFEF200C67900 /* fallDistance.cpp */; };
+		4D111C4D17DDFEF200C67900 /* fallDistance.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D111C4C17DDFEF200C67900 /* fallDistance.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4DC5DFA717D77644000FDF00 /* CopyFiles */ = {
+		4D111C4517DDFEF200C67900 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				4DC5DFAF17D77644000FDF00 /* fallDistance.1 in CopyFiles */,
+				4D111C4D17DDFEF200C67900 /* fallDistance.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DC5DFA917D77644000FDF00 /* fallDistance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fallDistance; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC5DFAC17D77644000FDF00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4DC5DFAE17D77644000FDF00 /* fallDistance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fallDistance.1; sourceTree = "<group>"; };
+		4D111C4717DDFEF200C67900 /* fallDistance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fallDistance; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D111C4A17DDFEF200C67900 /* fallDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fallDistance.cpp; sourceTree = "<group>"; };
+		4D111C4C17DDFEF200C67900 /* fallDistance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fallDistance.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DC5DFA617D77644000FDF00 /* Frameworks */ = {
+		4D111C4417DDFEF200C67900 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,27 +41,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC5DFA017D77644000FDF00 = {
+		4D111C3E17DDFEF200C67900 = {
 			isa = PBXGroup;
 			children = (
-				4DC5DFAB17D77644000FDF00 /* fallDistance */,
-				4DC5DFAA17D77644000FDF00 /* Products */,
+				4D111C4917DDFEF200C67900 /* fallDistance */,
+				4D111C4817DDFEF200C67900 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DC5DFAA17D77644000FDF00 /* Products */ = {
+		4D111C4817DDFEF200C67900 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DFA917D77644000FDF00 /* fallDistance */,
+				4D111C4717DDFEF200C67900 /* fallDistance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DC5DFAB17D77644000FDF00 /* fallDistance */ = {
+		4D111C4917DDFEF200C67900 /* fallDistance */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DFAC17D77644000FDF00 /* main.cpp */,
-				4DC5DFAE17D77644000FDF00 /* fallDistance.1 */,
+				4D111C4A17DDFEF200C67900 /* fallDistance.cpp */,
+				4D111C4C17DDFEF200C67900 /* fallDistance.1 */,
 			);
 			path = fallDistance;
 			sourceTree = "<group>";
@@ -69,13 +69,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DC5DFA817D77644000FDF00 /* fallDistance */ = {
+		4D111C4617DDFEF200C67900 /* fallDistance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC5DFB217D77644000FDF00 /* Build configuration list for PBXNativeTarget "fallDistance" */;
+			buildConfigurationList = 4D111C5017DDFEF200C67900 /* Build configuration list for PBXNativeTarget "fallDistance" */;
 			buildPhases = (
-				4DC5DFA517D77644000FDF00 /* Sources */,
-				4DC5DFA617D77644000FDF00 /* Frameworks */,
-				4DC5DFA717D77644000FDF00 /* CopyFiles */,
+				4D111C4317DDFEF200C67900 /* Sources */,
+				4D111C4417DDFEF200C67900 /* Frameworks */,
+				4D111C4517DDFEF200C67900 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -83,48 +83,48 @@
 			);
 			name = fallDistance;
 			productName = fallDistance;
-			productReference = 4DC5DFA917D77644000FDF00 /* fallDistance */;
+			productReference = 4D111C4717DDFEF200C67900 /* fallDistance */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DC5DFA117D77644000FDF00 /* Project object */ = {
+		4D111C3F17DDFEF200C67900 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jonathan Springer";
 			};
-			buildConfigurationList = 4DC5DFA417D77644000FDF00 /* Build configuration list for PBXProject "fallDistance" */;
+			buildConfigurationList = 4D111C4217DDFEF200C67900 /* Build configuration list for PBXProject "fallDistance" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4DC5DFA017D77644000FDF00;
-			productRefGroup = 4DC5DFAA17D77644000FDF00 /* Products */;
+			mainGroup = 4D111C3E17DDFEF200C67900;
+			productRefGroup = 4D111C4817DDFEF200C67900 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DC5DFA817D77644000FDF00 /* fallDistance */,
+				4D111C4617DDFEF200C67900 /* fallDistance */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DC5DFA517D77644000FDF00 /* Sources */ = {
+		4D111C4317DDFEF200C67900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC5DFAD17D77644000FDF00 /* main.cpp in Sources */,
+				4D111C4B17DDFEF200C67900 /* fallDistance.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DC5DFB017D77644000FDF00 /* Debug */ = {
+		4D111C4E17DDFEF200C67900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -157,7 +157,7 @@
 			};
 			name = Debug;
 		};
-		4DC5DFB117D77644000FDF00 /* Release */ = {
+		4D111C4F17DDFEF200C67900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,14 +183,14 @@
 			};
 			name = Release;
 		};
-		4DC5DFB317D77644000FDF00 /* Debug */ = {
+		4D111C5117DDFEF200C67900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4DC5DFB417D77644000FDF00 /* Release */ = {
+		4D111C5217DDFEF200C67900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -200,24 +200,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DC5DFA417D77644000FDF00 /* Build configuration list for PBXProject "fallDistance" */ = {
+		4D111C4217DDFEF200C67900 /* Build configuration list for PBXProject "fallDistance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC5DFB017D77644000FDF00 /* Debug */,
-				4DC5DFB117D77644000FDF00 /* Release */,
+				4D111C4E17DDFEF200C67900 /* Debug */,
+				4D111C4F17DDFEF200C67900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC5DFB217D77644000FDF00 /* Build configuration list for PBXNativeTarget "fallDistance" */ = {
+		4D111C5017DDFEF200C67900 /* Build configuration list for PBXNativeTarget "fallDistance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC5DFB317D77644000FDF00 /* Debug */,
-				4DC5DFB417D77644000FDF00 /* Release */,
+				4D111C5117DDFEF200C67900 /* Debug */,
+				4D111C5217DDFEF200C67900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DC5DFA117D77644000FDF00 /* Project object */;
+	rootObject = 4D111C3F17DDFEF200C67900 /* Project object */;
 }
