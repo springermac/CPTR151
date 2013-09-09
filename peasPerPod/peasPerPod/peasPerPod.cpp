@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  peasPerPod.cpp
 //  peasPerPod
 //
 //  Created by Jonathan Springer on 9/3/13.
