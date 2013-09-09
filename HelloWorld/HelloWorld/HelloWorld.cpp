@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  HelloWorld.cpp
 //  HelloWorld
 //
 //  Created by Jonathan Springer on 9/5/13.
