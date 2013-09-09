@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC5DF9817D76F13000FDF00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5DF9717D76F13000FDF00 /* main.cpp */; };
-		4DC5DF9A17D76F13000FDF00 /* coinCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DC5DF9917D76F13000FDF00 /* coinCounter.1 */; };
+		4D111C3617DDFEB400C67900 /* coinCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D111C3517DDFEB400C67900 /* coinCounter.cpp */; };
+		4D111C3817DDFEB400C67900 /* coinCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D111C3717DDFEB400C67900 /* coinCounter.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4DC5DF9217D76F13000FDF00 /* CopyFiles */ = {
+		4D111C3017DDFEB400C67900 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				4DC5DF9A17D76F13000FDF00 /* coinCounter.1 in CopyFiles */,
+				4D111C3817DDFEB400C67900 /* coinCounter.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DC5DF9417D76F13000FDF00 /* coinCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coinCounter; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC5DF9717D76F13000FDF00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4DC5DF9917D76F13000FDF00 /* coinCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = coinCounter.1; sourceTree = "<group>"; };
+		4D111C3217DDFEB400C67900 /* coinCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coinCounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D111C3517DDFEB400C67900 /* coinCounter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coinCounter.cpp; sourceTree = "<group>"; };
+		4D111C3717DDFEB400C67900 /* coinCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = coinCounter.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DC5DF9117D76F13000FDF00 /* Frameworks */ = {
+		4D111C2F17DDFEB400C67900 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,27 +41,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC5DF8B17D76F13000FDF00 = {
+		4D111C2917DDFEB400C67900 = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF9617D76F13000FDF00 /* coinCounter */,
-				4DC5DF9517D76F13000FDF00 /* Products */,
+				4D111C3417DDFEB400C67900 /* coinCounter */,
+				4D111C3317DDFEB400C67900 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DC5DF9517D76F13000FDF00 /* Products */ = {
+		4D111C3317DDFEB400C67900 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF9417D76F13000FDF00 /* coinCounter */,
+				4D111C3217DDFEB400C67900 /* coinCounter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DC5DF9617D76F13000FDF00 /* coinCounter */ = {
+		4D111C3417DDFEB400C67900 /* coinCounter */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5DF9717D76F13000FDF00 /* main.cpp */,
-				4DC5DF9917D76F13000FDF00 /* coinCounter.1 */,
+				4D111C3517DDFEB400C67900 /* coinCounter.cpp */,
+				4D111C3717DDFEB400C67900 /* coinCounter.1 */,
 			);
 			path = coinCounter;
 			sourceTree = "<group>";
@@ -69,13 +69,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DC5DF9317D76F13000FDF00 /* coinCounter */ = {
+		4D111C3117DDFEB400C67900 /* coinCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC5DF9D17D76F13000FDF00 /* Build configuration list for PBXNativeTarget "coinCounter" */;
+			buildConfigurationList = 4D111C3B17DDFEB400C67900 /* Build configuration list for PBXNativeTarget "coinCounter" */;
 			buildPhases = (
-				4DC5DF9017D76F13000FDF00 /* Sources */,
-				4DC5DF9117D76F13000FDF00 /* Frameworks */,
-				4DC5DF9217D76F13000FDF00 /* CopyFiles */,
+				4D111C2E17DDFEB400C67900 /* Sources */,
+				4D111C2F17DDFEB400C67900 /* Frameworks */,
+				4D111C3017DDFEB400C67900 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -83,48 +83,48 @@
 			);
 			name = coinCounter;
 			productName = coinCounter;
-			productReference = 4DC5DF9417D76F13000FDF00 /* coinCounter */;
+			productReference = 4D111C3217DDFEB400C67900 /* coinCounter */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DC5DF8C17D76F13000FDF00 /* Project object */ = {
+		4D111C2A17DDFEB400C67900 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jonathan Springer";
 			};
-			buildConfigurationList = 4DC5DF8F17D76F13000FDF00 /* Build configuration list for PBXProject "coinCounter" */;
+			buildConfigurationList = 4D111C2D17DDFEB400C67900 /* Build configuration list for PBXProject "coinCounter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4DC5DF8B17D76F13000FDF00;
-			productRefGroup = 4DC5DF9517D76F13000FDF00 /* Products */;
+			mainGroup = 4D111C2917DDFEB400C67900;
+			productRefGroup = 4D111C3317DDFEB400C67900 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DC5DF9317D76F13000FDF00 /* coinCounter */,
+				4D111C3117DDFEB400C67900 /* coinCounter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DC5DF9017D76F13000FDF00 /* Sources */ = {
+		4D111C2E17DDFEB400C67900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC5DF9817D76F13000FDF00 /* main.cpp in Sources */,
+				4D111C3617DDFEB400C67900 /* coinCounter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DC5DF9B17D76F13000FDF00 /* Debug */ = {
+		4D111C3917DDFEB400C67900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -157,7 +157,7 @@
 			};
 			name = Debug;
 		};
-		4DC5DF9C17D76F13000FDF00 /* Release */ = {
+		4D111C3A17DDFEB400C67900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,14 +183,14 @@
 			};
 			name = Release;
 		};
-		4DC5DF9E17D76F13000FDF00 /* Debug */ = {
+		4D111C3C17DDFEB400C67900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4DC5DF9F17D76F13000FDF00 /* Release */ = {
+		4D111C3D17DDFEB400C67900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -200,24 +200,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DC5DF8F17D76F13000FDF00 /* Build configuration list for PBXProject "coinCounter" */ = {
+		4D111C2D17DDFEB400C67900 /* Build configuration list for PBXProject "coinCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC5DF9B17D76F13000FDF00 /* Debug */,
-				4DC5DF9C17D76F13000FDF00 /* Release */,
+				4D111C3917DDFEB400C67900 /* Debug */,
+				4D111C3A17DDFEB400C67900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC5DF9D17D76F13000FDF00 /* Build configuration list for PBXNativeTarget "coinCounter" */ = {
+		4D111C3B17DDFEB400C67900 /* Build configuration list for PBXNativeTarget "coinCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DC5DF9E17D76F13000FDF00 /* Debug */,
-				4DC5DF9F17D76F13000FDF00 /* Release */,
+				4D111C3C17DDFEB400C67900 /* Debug */,
+				4D111C3D17DDFEB400C67900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DC5DF8C17D76F13000FDF00 /* Project object */;
+	rootObject = 4D111C2A17DDFEB400C67900 /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  coinCounter.cpp
 //  coinCounter
 //
 //  Collect number of quarters, nickles, and dimes input by keyboard then calculate and display total monetary value.
