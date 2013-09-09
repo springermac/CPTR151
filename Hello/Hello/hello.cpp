@@ -13,27 +13,23 @@ using namespace std;
 
 int main()
 {
-    int age;//age of individual
-    string firstName;//first name of individual
-    string lastName;//last name of individual
+    int age;//Initialize a variable to store the age of the individual
+    string firstName;//Initialize a variable to store the first name of the individual
+    string lastName;//Initialize a variable to store the last name of the individual
     
-    //get the first name of individual
-    cout<<"\n";
-    cout<<"Enter your first name: ";
-    cin>>firstName;
+    cout<<endl;
+    cout<<"Enter your first name: ";//Prompt for the individuals first name
+    cin>>firstName;//Store the input from the console to the variable firstName
     
-    //get the last name of the individual
-    cout<<"Enter your last name: ";
-    cin>>lastName;
+    cout<<"Enter your last name: ";//Prompt for the individuals last name
+    cin>>lastName;//Store the input from the console to the variable lastName
     
-    //get the age of individual
-    cout<<"Enter your age ";
-    cin>>age;
+    cout<<"Enter your age: ";//Prompt for the individuals age
+    cin>>age;//Store the input from the console to the variable age
     
-    //display results
-    cout<<"\nHello "<<firstName<<" "<<lastName;
-    cout<<" your age is "<<age<<". Really????";
-    cout<<"\n";
+    cout<<endl<<"Hello "<<firstName<<" "<<lastName;//Print out the individuals first name and last name to the console
+    cout<<" your age is "<<age<<". Really????";//Print out the individuals age to the console
+    cout<<endl;
     return 0;
     
-}//end main function
+}
