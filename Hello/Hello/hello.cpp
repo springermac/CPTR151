@@ -1,13 +1,13 @@
-/***********************************************************************************************************************
- 
- Jonathan Springer
- Date 09/02/2013
- hello.cpp
- 
- Description:
- Prompt for individuals first name, last name and age then output to data to console.
- 
- ***********************************************************************************************************************/
+//
+//  Hello.cpp
+//  Hello
+//
+//  Created by Jonathan Springer on 9/2/13.
+//  Copyright (c) 2013 Jonathan Springer. All rights reserved.
+//
+//  Description:
+//  Prompt for individuals first name, last name and age then output to data to console.
+//
 #include "iostream"
 using namespace std;
 
