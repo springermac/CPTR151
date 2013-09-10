@@ -14,12 +14,19 @@ using namespace std;
 
 int main()
 {
+    /*
+     Declare variables to hold the number of quarters, dimes, and nickles. Also declare variables to hold the total
+     number of cents and the total dollar value.
+    */
     int quarters;
     int dimes;
     int nickles;
     double total;
     double currancy;
     
+    /*
+     Prompt for the number of quarters, dimes and nickles respectively
+    */
     cout<<endl;
     cout<<"Enter number of quarters: ";
     cin>>quarters;
@@ -30,9 +37,15 @@ int main()
     cout<<"Enter number of nickles: ";
     cin>>nickles;
     
+    /* 
+     Calculate the total number of cents and total dollar value
+    */
     total=(quarters*25)+(dimes*10)+(nickles*5);
     currancy=total/100;
     
+    /*
+     Display the total number of cents and total dollar value
+    */
     cout.setf(ios::fixed);
     cout.setf(ios::showpoint);
     cout.precision(2);
