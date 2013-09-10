@@ -21,7 +21,7 @@ int main()
     
     distance=(ACCELERATION*time*time)/2;
     
-    cout<<"\nThe object will fall "<<distance<<" feet in "<<time<<" seconds.\n";
+    cout<<endl<<"The object will fall "<<distance<<" feet in "<<time<<" seconds."<<endl;
     
     return 0;
 }
