@@ -17,6 +17,7 @@ int main()
     int negative[10];
     int countOfPositive=0;
     int countOfNegative=0;
+    int count=0;
     float sumPositive=0;
     float sumNegative=0;
     float averagePositive=0;
@@ -24,14 +25,22 @@ int main()
     float sum=0;
     float average=0;
     int i;
+    string dummy;
     
     cout<<"Enter 10 numbers seperated by a space. Press return after last number."<<endl;
     cout<<"Numbers: ";
     for (i=0; i<=NUMBER_OF_INPUTS-1; i++) { //Accept only as many numbers from the console as the const NUMBER_OF_INPUTS specifies
         cin>>values[i];
-        if (cin.fail()) {
-            cout<<"Not a valid number."<<endl;
-            cout<<"Number: "<<endl;
+        if (!cin.fail()) {
+            count++;
+        }
+        else if (cin.eof()) {
+            break;
+        }
+        else {
+            cin.clear();
+            cin >> dummy;
+            cout<<"Entry "<<i+1<<" is not a valid number"<<endl;
         }
     }
     
@@ -69,7 +78,7 @@ int main()
     for (i=0; i<=9; i++) {
         sum=sum+values[i];
     }
-    average=sum/NUMBER_OF_INPUTS;
+    average=sum/count;
     
     cout.precision(2);
     cout<<"Sum of positive numbers: "<<sumPositive<<endl;
