@@ -29,7 +29,7 @@ int main()
     
     cout<<"Enter 10 numbers seperated by a space. Press return after last number."<<endl;
     cout<<"Numbers: ";
-    for (i=0; i<=NUMBER_OF_INPUTS-1; i++) { //Accept only as many numbers from the console as the const NUMBER_OF_INPUTS specifies
+    for (i=0; i<NUMBER_OF_INPUTS; i++) { //Accept only as many numbers from the console as the const NUMBER_OF_INPUTS specifies
         cin>>values[i];
         if (!cin.fail()) {
             count++;
@@ -47,7 +47,7 @@ int main()
     /*
      Test each value in values array
     */
-    for (i=0; i<=NUMBER_OF_INPUTS-1; i++) {
+    for (i=0; i<NUMBER_OF_INPUTS; i++) {
         if (values[i]<0) {
             negative[countOfNegative]=values[i];
             countOfNegative++;
@@ -65,17 +65,17 @@ int main()
         }
     }
     
-    for (i=0; i<=countOfPositive-1; i++) {
+    for (i=0; i<countOfPositive; i++) {
         sumPositive=positive[i]+sumPositive;
     }
     averagePositive=(1.0*sumPositive)/countOfPositive;
     
-    for (i=0; i<=countOfNegative-1; i++) {
+    for (i=0; i<countOfNegative; i++) {
         sumNegative=negative[i]+sumNegative;
     }
     averageNegative=(1.0*sumNegative)/countOfNegative;
     
-    for (i=0; i<=9; i++) {
+    for (i=0; i<10; i++) {
         sum=sum+values[i];
     }
     average=(1.0*sum)/count;
