@@ -68,19 +68,18 @@ int main()
     for (i=0; i<=countOfPositive-1; i++) {
         sumPositive=positive[i]+sumPositive;
     }
-    averagePositive=sumPositive/countOfPositive;
+    averagePositive=(1.0*sumPositive)/countOfPositive;
     
     for (i=0; i<=countOfNegative-1; i++) {
         sumNegative=negative[i]+sumNegative;
     }
-    averageNegative=sumNegative/countOfNegative;
+    averageNegative=(1.0*sumNegative)/countOfNegative;
     
     for (i=0; i<=9; i++) {
         sum=sum+values[i];
     }
-    average=sum/count;
+    average=(1.0*sum)/count;
     
-    cout.precision(2);
     cout<<"Sum of positive numbers: "<<sumPositive<<endl;
     cout<<"Average of positive numbers: "<<averagePositive<<endl;
     cout<<"Sum of negative numbers: "<<sumNegative<< endl;
@@ -90,4 +89,3 @@ int main()
     
     return 0;
 }
-
