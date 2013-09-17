@@ -35,7 +35,7 @@ int main()
             count++;
         }
         else if (cin.eof()) {
-            break;
+            return 0;
         }
         else {
             cin.clear();
