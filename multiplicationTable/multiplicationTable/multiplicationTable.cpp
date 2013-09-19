@@ -12,16 +12,16 @@ using namespace std;
 int main()
 {
 	cout<<"\t\t\tWhat is the output"<<endl;
-	cout<<"    ";
+	cout<<"   ";
 	for (int j=1; j<=9; j++) {
 		cout<<"   "<<j;
 	}
 	
-	cout<<endl<<"-----------------------------------------";
+	cout<<endl<<"---------------------------------------";
 	cout<<endl;
 	
 	for (int row=1; row<=9; row++) {
-		cout<<row<<" | ";
+		cout<<row<<" |";
 		for (int col=1; col<=9; col++) {
 			if (row*col<10) {
 				cout<<"   "<<row*col;
