@@ -48,12 +48,12 @@ int main()
         if (gender=='m'||gender=='M') {
             BMR=66+(6.3*weight)+(12.9*height)-(6.8*age);
             bars=BMR/230;
-            cout<<"If you do exercise you must eat "<<bars<<" chocolate bars to maintain your weight."<<endl; //Display the results of the calculations
+            cout<<"If you do not exercise you must eat "<<bars<<" chocolate bars to maintain your weight."<<endl; //Display the results of the calculations
         }
         else if (gender=='f'||gender=='F') {
             BMR=655+(4.3*weight)+(4.7*height)-(4.7*age);
             bars=BMR/230;
-            cout<<"If you do exercise you must eat "<<bars<<" chocolate bars to maintain your weight."<<endl; //Display the results of the calculations
+            cout<<"If you do not exercise you must eat "<<bars<<" chocolate bars to maintain your weight."<<endl; //Display the results of the calculations
         }
         else {
             cout<<"Gender entered was not male or female"<<endl; //If the entered gender was not (M)ale or (F)emale tell user
