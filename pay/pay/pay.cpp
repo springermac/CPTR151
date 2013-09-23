@@ -22,11 +22,11 @@ int main() {
 		const double SOCIAL_SECURITY_TAX_PERCENTAGE=6; //Percent of gross pay with held for Social Security tax.
 		const double FEDERAL_INCOME_TAX_PERCENTAGE=14; //Percent of gross pay with held for Federal Income tax.
 		const double STATE_INCOME_TAX_PERCENTAGE=5; //Percent of gross pay with held for State Income tax.
-		const int UNION_DUES=10;
-		const int DEPENDENT_HEALTH_INSUARANCE_WITHHELD=35;
+		const double UNION_DUES=10;
+		const double DEPENDENT_HEALTH_INSUARANCE_WITHHELD=35;
+		int numberOfDependents;
 		double hoursWorked;
 		double overTimeHours;
-		int numberOfDependents;
 		double normalPay;
 		double overTimePay;
 		double grossPay;
