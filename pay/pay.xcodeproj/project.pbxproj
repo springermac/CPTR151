@@ -216,6 +216,7 @@
 				4D7EE96917E9E3E700F3E956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
