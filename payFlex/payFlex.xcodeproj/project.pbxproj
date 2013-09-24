@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D229F1517F1455F00DC4DBC /* payFlex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D229F1417F1455F00DC4DBC /* payFlex.cpp */; };
-		4D229F1717F1455F00DC4DBC /* payFlex.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D229F1617F1455F00DC4DBC /* payFlex.1 */; };
+		4D229F2A17F1476F00DC4DBC /* payFlex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D229F2917F1476F00DC4DBC /* payFlex.cpp */; };
+		4D229F2C17F1476F00DC4DBC /* payFlex.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D229F2B17F1476F00DC4DBC /* payFlex.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4D229F0F17F1455F00DC4DBC /* CopyFiles */ = {
+		4D229F2417F1476F00DC4DBC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				4D229F1717F1455F00DC4DBC /* payFlex.1 in CopyFiles */,
+				4D229F2C17F1476F00DC4DBC /* payFlex.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D229F1117F1455F00DC4DBC /* payFlex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = payFlex; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D229F1417F1455F00DC4DBC /* payFlex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = payFlex.cpp; sourceTree = "<group>"; };
-		4D229F1617F1455F00DC4DBC /* payFlex.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = payFlex.1; sourceTree = "<group>"; };
+		4D229F2617F1476F00DC4DBC /* payFlex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = payFlex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D229F2917F1476F00DC4DBC /* payFlex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = payFlex.cpp; sourceTree = "<group>"; };
+		4D229F2B17F1476F00DC4DBC /* payFlex.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = payFlex.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D229F0E17F1455F00DC4DBC /* Frameworks */ = {
+		4D229F2317F1476F00DC4DBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,27 +41,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D229F0817F1455F00DC4DBC = {
+		4D229F1D17F1476F00DC4DBC = {
 			isa = PBXGroup;
 			children = (
-				4D229F1317F1455F00DC4DBC /* payFlex */,
-				4D229F1217F1455F00DC4DBC /* Products */,
+				4D229F2817F1476F00DC4DBC /* payFlex */,
+				4D229F2717F1476F00DC4DBC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D229F1217F1455F00DC4DBC /* Products */ = {
+		4D229F2717F1476F00DC4DBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D229F1117F1455F00DC4DBC /* payFlex */,
+				4D229F2617F1476F00DC4DBC /* payFlex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D229F1317F1455F00DC4DBC /* payFlex */ = {
+		4D229F2817F1476F00DC4DBC /* payFlex */ = {
 			isa = PBXGroup;
 			children = (
-				4D229F1417F1455F00DC4DBC /* payFlex.cpp */,
-				4D229F1617F1455F00DC4DBC /* payFlex.1 */,
+				4D229F2917F1476F00DC4DBC /* payFlex.cpp */,
+				4D229F2B17F1476F00DC4DBC /* payFlex.1 */,
 			);
 			path = payFlex;
 			sourceTree = "<group>";
@@ -69,13 +69,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D229F1017F1455F00DC4DBC /* payFlex */ = {
+		4D229F2517F1476F00DC4DBC /* payFlex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D229F1A17F1455F00DC4DBC /* Build configuration list for PBXNativeTarget "payFlex" */;
+			buildConfigurationList = 4D229F2F17F1476F00DC4DBC /* Build configuration list for PBXNativeTarget "payFlex" */;
 			buildPhases = (
-				4D229F0D17F1455F00DC4DBC /* Sources */,
-				4D229F0E17F1455F00DC4DBC /* Frameworks */,
-				4D229F0F17F1455F00DC4DBC /* CopyFiles */,
+				4D229F2217F1476F00DC4DBC /* Sources */,
+				4D229F2317F1476F00DC4DBC /* Frameworks */,
+				4D229F2417F1476F00DC4DBC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -83,48 +83,48 @@
 			);
 			name = payFlex;
 			productName = payFlex;
-			productReference = 4D229F1117F1455F00DC4DBC /* payFlex */;
+			productReference = 4D229F2617F1476F00DC4DBC /* payFlex */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D229F0917F1455F00DC4DBC /* Project object */ = {
+		4D229F1E17F1476F00DC4DBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jonathan Springer";
 			};
-			buildConfigurationList = 4D229F0C17F1455F00DC4DBC /* Build configuration list for PBXProject "payFlex" */;
+			buildConfigurationList = 4D229F2117F1476F00DC4DBC /* Build configuration list for PBXProject "payFlex" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4D229F0817F1455F00DC4DBC;
-			productRefGroup = 4D229F1217F1455F00DC4DBC /* Products */;
+			mainGroup = 4D229F1D17F1476F00DC4DBC;
+			productRefGroup = 4D229F2717F1476F00DC4DBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D229F1017F1455F00DC4DBC /* payFlex */,
+				4D229F2517F1476F00DC4DBC /* payFlex */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D229F0D17F1455F00DC4DBC /* Sources */ = {
+		4D229F2217F1476F00DC4DBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D229F1517F1455F00DC4DBC /* payFlex.cpp in Sources */,
+				4D229F2A17F1476F00DC4DBC /* payFlex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4D229F1817F1455F00DC4DBC /* Debug */ = {
+		4D229F2D17F1476F00DC4DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -161,7 +161,7 @@
 			};
 			name = Debug;
 		};
-		4D229F1917F1455F00DC4DBC /* Release */ = {
+		4D229F2E17F1476F00DC4DBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,14 +192,14 @@
 			};
 			name = Release;
 		};
-		4D229F1B17F1455F00DC4DBC /* Debug */ = {
+		4D229F3017F1476F00DC4DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4D229F1C17F1455F00DC4DBC /* Release */ = {
+		4D229F3117F1476F00DC4DBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -209,24 +209,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D229F0C17F1455F00DC4DBC /* Build configuration list for PBXProject "payFlex" */ = {
+		4D229F2117F1476F00DC4DBC /* Build configuration list for PBXProject "payFlex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D229F1817F1455F00DC4DBC /* Debug */,
-				4D229F1917F1455F00DC4DBC /* Release */,
+				4D229F2D17F1476F00DC4DBC /* Debug */,
+				4D229F2E17F1476F00DC4DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D229F1A17F1455F00DC4DBC /* Build configuration list for PBXNativeTarget "payFlex" */ = {
+		4D229F2F17F1476F00DC4DBC /* Build configuration list for PBXNativeTarget "payFlex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D229F1B17F1455F00DC4DBC /* Debug */,
-				4D229F1C17F1455F00DC4DBC /* Release */,
+				4D229F3017F1476F00DC4DBC /* Debug */,
+				4D229F3117F1476F00DC4DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D229F0917F1455F00DC4DBC /* Project object */;
+	rootObject = 4D229F1E17F1476F00DC4DBC /* Project object */;
 }
