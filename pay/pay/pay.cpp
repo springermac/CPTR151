@@ -9,7 +9,11 @@
 #include <sstream>
 #include <iostream>
 #include <cmath>
+#include <vector>
+#include <cstdarg>
 using namespace std;
+
+void output(char input);
 
 int main() {
 	
@@ -72,6 +76,7 @@ int main() {
 			outNormalPayRight<<" = $"<<round(grossPay*100)/100<<endl;
 			outGrossPayLeft<<"Gross pay:";
 			outGrossPayRight<<"$"<<round(grossPay*100)/100<<endl<<endl;
+			output(2,'$',grossPay);
 		}
 		else {
 			overTimeHours=hoursWorked-HOURS_BEFORE_OVERTIME;
@@ -181,5 +186,30 @@ int main() {
 	} while (runAgain=='y'||runAgain=='Y');
 
     return 0;
+}
+
+void output(char input, ...) {
+	double val;
+	vector <double> record;
+	va_list args;
+	va_start(args,input);
+	for (int i=0;i<input;i++)
+	{
+		val=va_arg(args,double);
+		cout<<val;
+	}
+	va_end(args);
+	/*while (getline( ss, field, ',' ))
+    {
+		// for each field we wish to convert it to a double
+		// (since we require that the CSV contains nothing but floating-point values)
+		stringstream fs( field );
+		double f = 0.0;  // (default value is 0.0)
+		fs >> f;
+		
+		// add the newly-converted field to the end of the record
+		record.push_back(f);
+    }
+	cout<<record[3];*/
 }
 
