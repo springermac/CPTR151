@@ -9,7 +9,6 @@
 #include <sstream>
 #include <iostream>
 #include <cmath>
-#include <vector>
 #include <cstdarg>
 #include <stdio.h>
 using namespace std;
@@ -18,7 +17,8 @@ stringstream output;
 
 void tprintf(const char* format) // base function
 {
-    cout << format;
+    output << format;
+	cout<<output.str();
 }
 
 template<typename T, typename... Targs>
@@ -27,12 +27,11 @@ void tprintf(const char* format, T value, Targs... Fargs) // recursive variadic 
     for ( ; *format != '\0'; format++ ) {
         if ( *format == '%' ) {
 			output << value;
-			tprintf(format+1, Fargs...); // recursive callg
+			tprintf(format+1, Fargs...); // recursive call
 			return;
-        }
+		}
         output << *format;
     }
-	cout<<"Test";
 }
 
 int main() {
@@ -199,7 +198,7 @@ int main() {
 		//cout<<right<<outNetPayMid.str();
 		//cout<<left<<outNetPayRight.str();
 		tprintf("$% - ($% + $% + $% + $% + $%) = $%",grossPay,SSWithheld,fedWithheld,stateWithheld,UNION_DUES,DEPENDENT_HEALTH_INSUARANCE_WITHHELD,netPay);
-		cout<<output.str();
+		//cout<<right<<output.str();
 		
 		cout<<endl<<"Do you want to run again? Y/N ";
 		cin>>runAgain;
