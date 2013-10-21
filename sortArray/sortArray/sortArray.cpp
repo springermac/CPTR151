@@ -19,6 +19,8 @@ void swapValues(int &v1,int &v2);
 
 int indexOfSmallest(const int a[],int startIndex,int size);
 
+void searchArray(int values[],int lowerBound,int upperBound,int key);
+
 int main()
 {
 	unsigned seed = time(0);
@@ -26,12 +28,16 @@ int main()
 	
 	const int size=10000;
 	int values[size];
+	int key;
 	for (int i=0; i<size; i++) {
 		values[i]=rand()%1000+1;
 	}
 	
 	sortArray(values, size);
 	showValues(values, size);
+	cout<<"Enter number: ";
+	cin>>key;
+	searchArray(values,0,size,key);
 	
     return 0;
 }
@@ -76,4 +82,24 @@ int indexOfSmallest(const int values[],int startIndex,int size) {
 	}
 	
 	return indexOfMin;
+}
+
+void searchArray(int values[],int lowerBound,int upperBound,int key) {
+	int position;
+	
+	position=(lowerBound+upperBound)/2;
+	
+	while (values[position]!=key && lowerBound<=upperBound) {
+		if (values[position]>key) {
+			upperBound=position-1;
+		}
+		else {
+			lowerBound=position-1;
+		}
+		position=(lowerBound+upperBound)/2;
+	}
+	if (lowerBound<=upperBound) {
+		cout<<values[position]<<position;
+	}
+	return;
 }
