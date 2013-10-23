@@ -75,23 +75,29 @@ void sequentialSearch(int array[], int size, int key) {
 
 void binarySearch(int array[], int lowerBound, int upperBound, int key) {
 	int position;
+	int j=0;
 	
-	position=(lowerBound+upperBound)/2;
+	upperBound=upperBound-1;
 	
-	while (array[position]!=key && lowerBound<=upperBound) {
+	while (lowerBound<=upperBound) {
+		position=(lowerBound+upperBound)/2;
 		if (array[position]>key) {
 			upperBound=position-1;
 		}
-		if (array[position]<key) {
-			lowerBound=position-1;
+		else if (array[position]<key) {
+			lowerBound=position+1;
 		}
-		position=(lowerBound+upperBound)/2;
+		else if (array[position]==key) {
+			cout<<"Binary search found the number "<<key<<" at position: "<<position+1<<endl;
+			break;
+		}
+		j++;
 	}
-	if (lowerBound<=upperBound) {
-		cout<<"Binary search found the number "<<key<<" at position: "<<position;
+	for (int i=lowerBound; i<upperBound; i++) {
+		if (key==array[i]) {
+			cout<<"Binary/sequential search found the number "<<key<<" at position: "<<i+1<<endl;
+		}
 	}
-	else {
-		cout<<"Binary search did not find the number";
-	}
+	cout<<j;
 	return;
 }

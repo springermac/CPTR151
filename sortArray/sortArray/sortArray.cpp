@@ -26,11 +26,11 @@ int main()
 	unsigned seed = time(0);
 	srand(seed);
 	
-	const int size=10000;
+	const int size=100;
 	int values[size];
 	int key;
 	for (int i=0; i<size; i++) {
-		values[i]=rand()%1000+1;
+		values[i]=rand()%100+1;
 	}
 	
 	sortArray(values, size);
