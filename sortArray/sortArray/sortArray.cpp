@@ -12,13 +12,7 @@
 using namespace std;
 
 void showValues(int values[],int size);
-
 void sortArray(int values[],int size);
-
-void swapValues(int &v1,int &v2);
-
-int indexOfSmallest(const int a[],int startIndex,int size);
-
 void searchArray(int values[],int lowerBound,int upperBound,int key);
 
 int main()
@@ -58,34 +52,11 @@ void sortArray(int values[],int size) {
 			}
 		}
 	}
-	/*int nextSmallest;
-	for (int index=0; index<size-1; index++) {
-		nextSmallest=indexOfSmallest(values, index, size);
-		swapValues(values[index], values[nextSmallest]);
-	}*/
-}
-
-void swapValues(int& value1,int& value2) {
-	int temp;
-	temp=value1;
-	value1=value2;
-	value2=temp;
-}
-
-int indexOfSmallest(const int values[],int startIndex,int size) {
-	int min=values[startIndex],indexOfMin=startIndex;
-	for (int index=startIndex+1; index<size; index++) {
-		if (values[index]<min) {
-			min=values[index];
-			indexOfMin=index;
-		}
-	}
-	
-	return indexOfMin;
 }
 
 void searchArray(int values[],int lowerBound,int upperBound,int key) {
-	int position;
+	
+	/*int position;
 	
 	position=(lowerBound+upperBound)/2;
 	
@@ -101,5 +72,5 @@ void searchArray(int values[],int lowerBound,int upperBound,int key) {
 	if (lowerBound<=upperBound) {
 		cout<<values[position]<<position;
 	}
-	return;
+	return;*/
 }
