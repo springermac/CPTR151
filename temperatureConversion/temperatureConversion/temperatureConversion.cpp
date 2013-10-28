@@ -16,9 +16,9 @@ int main()
 	char type;
 	float temp;
 	
-	cout<<"Please enter a tempurature: ";
+	cout<<"Please enter a temperature: ";
 	cin>>temp;
-	cout<<"Please enter the measurement unit Celcius or Fahrenheit: C/F ";
+	cout<<"Please enter the measurement unit Celsius or Fahrenheit: C/F ";
 	cin>>type;
 	
 	temp=convert(type, temp);
@@ -27,10 +27,10 @@ int main()
 		main();
 	}
 	else if (type=='f'||type=='F') {
-		cout<<"The tempurature in Celcius is "<<temp<<endl<<endl;
+		cout<<"The temperature in Celsius is "<<temp<<endl<<endl;
 	}
 	else {
-		cout<<"The tempurature in Fahrenheit is "<<temp<<endl<<endl;
+		cout<<"The temperature in Fahrenheit is "<<temp<<endl<<endl;
 	}
 	
     return 0;
