@@ -15,25 +15,34 @@ void generateArray(int array[], int size);
 void bubbleSort(int array[], int size);
 void sequentialSearch(int array[], int size, int key);
 void binarySearch(int array[], int lowerBound, int upperBound, int key);
+void average(int array[], int size);
 void output(int array[], int size);
 
 int main() {
-	const int size=100;
-	int array[size];
-	int key;
-	
-	generateArray(array, size);
-	cout<<"Array of random numbers"<<endl;
-	output(array, size);
-	
-	cout<<"Please enter a number to search for: ";
-	cin>>key;
-	sequentialSearch(array, size, key);
-	
-	bubbleSort(array, size);
-	cout<<"Array of random numbers sorted from least to greatest using bubble sort"<<endl;
-	output(array, size);
-	binarySearch(array,0,size,key);
+	char cont;
+	do {
+		const int size=50;
+		int array[size];
+		int key;
+		
+		generateArray(array, size);
+		cout<<"Array of random numbers"<<endl;
+		output(array, size);
+		
+		cout<<"Please enter a number to search for: ";
+		cin>>key;
+		sequentialSearch(array, size, key);
+		
+		bubbleSort(array, size);
+		cout<<"Array of random numbers sorted from least to greatest using bubble sort"<<endl;
+		output(array, size);
+		binarySearch(array,0,size,key);
+		
+		average(array,size);
+		
+		cout<<"Do you want to run again? Y/N ";
+		cin>>cont;
+	} while (cont=='y'||cont=='Y');
 
     return 0;
 }
@@ -44,13 +53,6 @@ void generateArray(int array[], int size) {
 	for (int i=0; i<size; i++) {
 		array[i]=(rand()%size)+1;
 	}
-}
-
-void output(int array[], int size) {
-	for (int i=0; i<size; i++) {
-		cout<<array[i]<<" ";
-	}
-	cout<<endl;
 }
 
 void bubbleSort(int array[], int size) {
@@ -75,7 +77,6 @@ void sequentialSearch(int array[], int size, int key) {
 
 void binarySearch(int array[], int lowerBound, int upperBound, int key) {
 	int position;
-	int j=0;
 	
 	upperBound=upperBound-1;
 	
@@ -91,13 +92,24 @@ void binarySearch(int array[], int lowerBound, int upperBound, int key) {
 			cout<<"Binary search found the number "<<key<<" at position: "<<position+1<<endl;
 			break;
 		}
-		j++;
 	}
-	for (int i=lowerBound; i<upperBound; i++) {
-		if (key==array[i]) {
-			cout<<"Binary/sequential search found the number "<<key<<" at position: "<<i+1<<endl;
-		}
-	}
-	cout<<j;
 	return;
+}
+
+void average(int array[], int size) {
+	float average=0;
+	
+	for (int i=0; i<size; i++) {
+		average=average+array[i];
+	}
+	average=average/size;
+	
+	cout<<"The average of the array is "<<average<<endl;
+}
+
+void output(int array[], int size) {
+	for (int i=0; i<size; i++) {
+		cout<<array[i]<<" ";
+	}
+	cout<<endl;
 }
