@@ -49,7 +49,7 @@ int main() {
 		
 		cout<<"Do you want to run again? Y/N "; //Prompt whether to run the program again
 		cin>>cont;
-	} while (cont=='y'||cont=='Y'); //Loop to the begining of the program if the user wants to run it again
+	} while (cont=='y'||cont=='Y'); //Loop to the beginning of the program if the user wants to run it again
 
     return 0;
 }
@@ -78,7 +78,7 @@ void bubbleSort(int array[], int size) { //Sort an array using the bubble sort m
 void sequentialSearch(int array[], int size, int key) { //Search an array using the sequential search method for the key
 	for (int i=0; i<size; i++) { //Iterate through the array until
 		if (key==array[i]) {	 //the value at the current position is equal to the key
-			cout<<"Seqential search found the number "<<key<<" at position: "<<i+1<<endl;
+			cout<<"Sequential search found the number "<<key<<" at position: "<<i+1<<endl;
 		}
 	}
 }
@@ -111,7 +111,7 @@ void average(int array[], int size) { //Compute the average of all the fields in
 	float average=0;
 	
 	for (int i=0; i<size; i++) { //Iterate through the arrays
-		average=average+array[i]; //Add the curent field of the array to the sum of the previous fields
+		average=average+array[i]; //Add the current field of the array to the sum of the previous fields
 	}
 	average=average/size; //Divide the total of all the fields added together by the size of the array
 	
