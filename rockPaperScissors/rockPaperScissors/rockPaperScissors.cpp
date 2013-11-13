@@ -11,16 +11,17 @@
 #include <ctime>
 using namespace std;
 
-int hash1(int a, int b);
-void menu(int choice[], string table[]);
+void menu(int choice[], string table[][3]);
 void getUsersChoice(int choice[]);
 void getComputerChoice(int choice[]);
-void display(int choice[], string tabel[]);
+void display(int choice[], string tabel[][3]);
 
 
 int main()
-{ 
-	string table[11]={"Tie","Computer Wins","Computer Wins","User Wins","Tie","User Wins","User Wins","Computer Wins","","","Tie"};
+{
+	string table[3][3]={{"Tie","Computer Wins","User Wins"},
+						{"User Wins","Tie","Computer Wins"},
+						{"Computer Wins","User Wins","Tie"}};
 	int choice[2];
 	
 	srand(time(0));
@@ -28,19 +29,7 @@ int main()
 	menu(choice, table);
 }
 
-int hash1(int a, int b) {
-	int c;
-	c=a+b+1;
-	c=c+b;
-	c=(a+b)*c;
-	c=c/2;
-	c=c-c/6;
-	c=c-4;
-	c=c/2;
-	return c;
-}
-
-void menu(int choice[], string table[]) {
+void menu(int choice[], string table[][3]) {
 	cout<<"Options"<<endl;
 	cout<<"1 Rock"<<endl;
 	cout<<"2 Paper"<<endl;
@@ -68,13 +57,12 @@ void getComputerChoice(int choice[]) {
 	choice[1]=(rand()%3)+1;
 }
 
-void display(int choice[], string table[]) {
-	int hash;
+void display(int choice[], string table[][3]) {
 	for (int i=0; i<2; i++) {
-		if (i==0&&choice[i]<4) {
+		if (i==0 && choice[i]<4) {
 			cout<<endl<<"User choose ";
 		}
-		else if (i==1&&choice[i]<4) {
+		else if (i==1 && choice[i]<4) {
 			cout<<"Computer choose ";
 		}
 		else {
@@ -99,6 +87,5 @@ void display(int choice[], string table[]) {
 				return;
 		}
 	}
-	hash=hash1(choice[0], choice[1]);
-	cout<<table[hash]<<endl<<endl;
+	cout<<table[choice[0]-1][choice[1]-1]<<endl<<endl;
 }
