@@ -35,7 +35,7 @@ void menu(int choice[], string table[][3]) {
 	cout<<"2 Paper"<<endl;
 	cout<<"3 Scissors"<<endl;
 	cout<<"4 Quit"<<endl;
-	cout<<"Please choose: ";
+	cout<<"Please choose(1-4): ";
 	getUsersChoice(choice);
 	if (choice[0]==4) {
 		return;
@@ -66,7 +66,7 @@ void display(int choice[], string table[][3]) {
 			cout<<"Computer choose ";
 		}
 		else {
-			cout<<"Error "<<endl;
+			cout<<"Invalid input "<<endl;
 			return;
 		}
 		switch (choice[i]) {
@@ -83,7 +83,7 @@ void display(int choice[], string table[][3]) {
 				break;
 				
 			default:
-				cout<<"Something is wrong here"<<endl;
+				cout<<"Invalid input"<<endl;
 				return;
 		}
 	}
